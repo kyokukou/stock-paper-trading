@@ -1,6 +1,8 @@
 # stock-paper-trading
 A stock paper trading platform that updated real time stock data, tracked and allowed changes to a personal portfolio. Created in three versions: website, webapp, and android application. 
 
+App demo video: https://www.youtube.com/watch?v=SxRzt3qbtwQ
+
 Paper trading app displayes real time and historical information on searched stocks. Stocks can be added to a watchlist or pretend bought and sold using a fictional wallet. App portfolio trakcs current prices of owned stocks as well as change from purchase time. Search for stock tickers and companies is supported by finnhub's API. Interactive charts created with Highcharts. The backend server provided initial webpages and routed data through finnhub, and portfolio monitoring was done in device local storage. All three projects were hosted on GCP.
 
 The mobile app was created to run on Android with Kotlin and Jetpack Compose and used a Node.js backend.
